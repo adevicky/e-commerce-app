@@ -234,7 +234,13 @@ h3 {
     width: 50%;
     height: 50%;
 }
-
+.cash-page .cash-wrapper {
+    width: 85% !important;
+    max-width: 100%;
+}
+.cash-txt h3 {
+    font-size: 2.0rem !important;
+}
 }
 .container {
     position: relative;
@@ -264,6 +270,10 @@ h3 {
     .container {
             max-width: calc(100% - 80px);
         }
+    .brand .brand-page {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -290,16 +300,10 @@ h3 {
 }
 }
 .homepage {
-   background: linear-gradient(50deg, #013D29 30%, rgba(0, 0, 0, 0)30%), url('../images/Bag\ \(1\).jpeg');
+   background: linear-gradient(-58deg, #013D29 30%, rgba(0, 0, 0, 0)30%), url('../images/Bag\ \(1\).jpeg');
    background-position: bottom right, left, right;
    background-repeat: no-repeat;
    background-size: cover;
-   overflow: hidden;
-   transition: 2s ease;
-}
-.homepage:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
 }
 .homepage-text {
     position: relatives;
@@ -317,14 +321,15 @@ h3 {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
-    color: #000;
+    color: #013d29;
 }
 .homepage-text p {
-   color: var(--branding-color);
-   font-size: 18px;
+   color: #212121;
+   font-size: 21px;
+   font-weight: 700;
 }
 .homepage-text a {
-    background-color: #000;
+    background-color: #013D29;
     color: var(--branding-color);
     text-decoration: none;
     font-size: 18px;
@@ -441,14 +446,14 @@ padding: 10px 20px;
    
 }
 .fav {
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px;
     background-color: var(--branding-color);
     border-radius: 50%;
     color: #000;
     position: absolute;
     top: 10px;
-    right: 40px;  
+    right: 30px;  
    
 }
 .fav:hover {
@@ -463,7 +468,9 @@ padding: 10px 20px;
 }
 
 .brand .brand-page {
-    padding: 0.5rem 3.0rems;
+    padding: 0px 30px;
+    width: 100%;
+    max-width: 100%;
     background-color: #fff;
 }
 .brand .img-brand{
@@ -497,11 +504,11 @@ padding: 10px 20px;
 .brand .img-brand-wrapper  {
     background-color: var(--branding-color-3);
     display: flex;
-    padding: 5px 20px;
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 30px;
+    width: 100%;
 }
 .img-brand-wrapper img {
   width: 90px !important;
@@ -608,6 +615,7 @@ padding: 10px 20px;
    padding: 40px; 
    background-color:var(--branding-color-1); 
    width: 50%;
+   max-width: 100%;
    justify-items: right;
    justify-self: right !important;
 }
