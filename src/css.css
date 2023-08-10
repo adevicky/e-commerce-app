@@ -121,7 +121,7 @@ h3 {
     right: 0;
     background-color: #013D29;
     width: 180px;
-    height: 50%;
+    height: 80%;
     margin-top: 26px;
     transition: all 0.3ms ease-in-out;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
@@ -143,7 +143,7 @@ h3 {
     display: inline-block;
 }
 .no-scroll {
-    overflow: hisdden;
+    overflow: hidden;
 }
 @media only screen and (max-width: 1320px) {
 .nav-menu {
@@ -229,23 +229,6 @@ h3 {
 }
 .category-img-wrapper img {
     height: 220px !important;
-    }
- h3 {
-  font-size: 1.0rem;  
-}
-.cash-page {
-    overflow: hidden;
-    transition: 2s ease !important;
-}
-.cash-page:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
-.cash-txt {
-    font-size: 0.7rem;
-}
-.get .get-page .cash-txt h3 {
-    font-size: 21px !important;
 }
 .get .get-page img {
     width: 50%;
@@ -494,7 +477,7 @@ padding: 10px 20px;
     padding-right: 20px !important;
 }
 .brand .row img {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 50px;
     height: 50px;
 }
