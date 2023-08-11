@@ -300,8 +300,8 @@ h3 {
 }
 }
 .homepage {
-   background: linear-gradient(-58deg, #013D29 30%, rgba(0, 0, 0, 0)30%), url('../images/Bag\ \(1\).jpeg');
-   background-position: bottom right, left, right;
+   background:  url('../images/eduardo-soares-QsYXYSwV3NU-unsplash.jpg');
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -321,10 +321,10 @@ h3 {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
-    color: #013d29;
+    color: #fff;
 }
 .homepage-text p {
-   color: #212121;
+   color: #fff;
    font-size: 21px;
    font-weight: 700;
 }
